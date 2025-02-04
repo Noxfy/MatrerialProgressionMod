@@ -1,5 +1,3 @@
-/tp ~ ~10 ~
-/effect give @s minecraft:hunger
 /effect give @s minecraft:hunger 1 10
 /effect clear
 /effect give @s minecraft:hunger 1 100
@@ -48,3 +46,5 @@
 /give @a matrerialprogression:bronze_shield
 /
 /summon minecraft:husk
+/effect clea
+/effect clear

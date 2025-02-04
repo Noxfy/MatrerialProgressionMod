@@ -1,15 +1,14 @@
 package com.noxfy.matrerialprogression.items;
 
-import com.github.crimsondawn45.fabricshieldlib.lib.object.FabricShieldItem;
+
 import com.noxfy.matrerialprogression.Matrerialprogression;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.EndPortalFrameBlock;
 import net.minecraft.component.DataComponentTypes;
-import net.minecraft.component.type.BannerPatternsComponent;
-import net.minecraft.component.type.ConsumableComponent;
-import net.minecraft.component.type.ConsumableComponents;
-import net.minecraft.component.type.FoodComponent;
+import net.minecraft.component.type.*;
 import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.entity.attribute.EntityAttributeModifier;
+import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
@@ -48,7 +47,11 @@ public class ModItems {
 
 
     public static final RegistryKey<Item> BRONZE_SHIELD_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Matrerialprogression.MOD_ID, "bronze_shield"));
-    public static final Item BRONZE_SHIELD = register(new FabricShieldItem(new Item.Settings().maxDamage(2500).registryKey(BRONZE_SHIELD_KEY), 10, 13, Items.NETHERITE_INGOT), BRONZE_SHIELD_KEY);
+    public static final Item BRONZE_SHIELD = register(new ShieldItem(
+            new Item.Settings().maxDamage(150).repairable(Items.IRON_INGOT)
+                    .attributeModifiers(AttributeModifiersComponent.builder()
+                            .add(EntityAttributes.ARMOR, new EntityAttributeModifier(Identifier.of(Matrerialprogression.MOD_ID, "bronze_shield"), 4.0, EntityAttributeModifier.Operation.ADD_VALUE), AttributeModifierSlot.HAND).build())
+                    .registryKey(BRONZE_SHIELD_KEY)), BRONZE_SHIELD_KEY);
 
 
     //steel
