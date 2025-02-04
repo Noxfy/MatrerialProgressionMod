@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "matrerialprogression:steel_ingot"
+  ],
+  "result": {
+    "count": 9,
+    "id": "matrerialprogression:steel_nugget"
+  }
+}

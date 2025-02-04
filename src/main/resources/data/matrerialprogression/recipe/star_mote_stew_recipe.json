@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:golden_carrot",
+    "minecraft:golden_apple",
+    "matrerialprogression:star_mote",
+    "matrerialprogression:star_mote",
+    "matrerialprogression:star_mote",
+    "matrerialprogression:star_mote",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "count": 1,
+    "id": "matrerialprogression:star_mote_stew"
+  }
+}

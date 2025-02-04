@@ -1,0 +1,50 @@
+/difficulty hard
+/gamerule doMobSpawning false
+/difficulty peaceful
+/difficulty hard
+/tp ~ ~10 ~
+/effect give @s minecraft:hunger
+/effect give @s minecraft:hunger 1 10
+/effect clear
+/effect give @s minecraft:hunger 1 100
+/effect give @s minecraft:hunger 1 10
+/tp ~ ~10 ~
+/effect give @s minecraft:regeneration 3 100
+/tp ~ ~10 ~
+/tp ~ ~20 ~
+/effect clear
+/kill
+/tp ~ ~10 ~
+/kill
+/kill\
+/kill
+/give @a matrerialprogression:star_mote
+/kill
+/give @s matrerialprogression:starry_eye
+/give @a matrerialprogression:starry_eye
+/locate structure minecraft:stronghold
+/tp @s -272 ~ 1536
+/kill
+/give @s matrerialprogression:kiln
+/recipe give Player654 matrerialprogression:star_mote_recipe
+/recipe give Player654 *
+/give @s matrerialprogression:steel_nugget
+/give @s matrerialprogression:bronze_shield
+/clear
+/give @s matrerialprogression:bronze_shield
+/summon minecraft:zombies
+/summon minecraft:zombie
+/give @s matrerialprogression:bronze_shield
+/summon minecraft:zombie
+/summon husk
+/kill
+/summon minecraft:husk
+/kill @e[type=!minecraft:player
+/kill @e[type=!minecraft:player]
+/give @s matrerialprogression:bronze_shield
+/summon minecraft:husk
+/give @s matrerialprogression:bronze_shield
+/effect give @s minecraft:instant_health infinite 10
+/summon minecraft:husk
+/effect give @s minecraft:saturation infinite
+/summon minecraft:husk

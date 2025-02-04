@@ -1,0 +1,27 @@
+{
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_hoe": "2025-02-03 00:12:46 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-02-03 00:12:46 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_hoe": "2025-02-03 00:12:46 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna": "2025-02-03 00:12:54 -0800"
+    },
+    "done": false
+  },
+  "DataVersion": 4189
+}

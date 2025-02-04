@@ -1,0 +1,47 @@
+{
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2025-02-03 13:45:25 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-02-03 13:45:25 -0800"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2025-02-03 13:46:04 -0800"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-02-03 13:46:13 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:badlands": "2025-02-03 13:45:47 -0800",
+      "minecraft:savanna": "2025-02-03 13:45:27 -0800",
+      "minecraft:wooded_badlands": "2025-02-03 13:45:53 -0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-02-03 13:45:25 -0800"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-02-03 13:46:13 -0800"
+    },
+    "done": true
+  },
+  "DataVersion": 4189
+}

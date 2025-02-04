@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "com/noxfy/matrerialprogression/mixin/EnderEyeMixin": {
+      "useOnBlock": "Lnet/minecraft/class_1777;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/noxfy/matrerialprogression/mixin/EnderEyeMixin": {
+        "useOnBlock": "Lnet/minecraft/class_1777;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+      }
+    }
+  }
+}

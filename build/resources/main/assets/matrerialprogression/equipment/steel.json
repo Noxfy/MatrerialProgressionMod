@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "matrerialprogression:steel"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "matrerialprogression:steel"
+      }
+    ]
+  }
+}
