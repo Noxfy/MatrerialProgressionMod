@@ -1,0 +1,15 @@
+{
+  "parent":"fabricshieldlib:item/fabric_shield",
+  "textures":{
+    "shield":"matrerialprogression:item/bronze_shield"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "matrerialprogression:item/bronze_shield_blocking"
+    }
+  ]
+}
+

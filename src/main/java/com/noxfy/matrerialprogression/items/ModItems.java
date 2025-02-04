@@ -1,5 +1,6 @@
 package com.noxfy.matrerialprogression.items;
 
+import com.github.crimsondawn45.fabricshieldlib.lib.object.FabricShieldItem;
 import com.noxfy.matrerialprogression.Matrerialprogression;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.EndPortalFrameBlock;
@@ -44,6 +45,11 @@ public class ModItems {
 
     public static final RegistryKey<Item> STARRY_EYE_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Matrerialprogression.MOD_ID, "starry_eye"));
     public static final Item STARRY_EYE = register(new StarryEyeItem(new Item.Settings().registryKey(STARRY_EYE_KEY)), STARRY_EYE_KEY);
+
+
+    public static final RegistryKey<Item> BRONZE_SHIELD_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Matrerialprogression.MOD_ID, "bronze_shield"));
+    public static final Item BRONZE_SHIELD = register(new FabricShieldItem(new Item.Settings().maxDamage(2500).registryKey(BRONZE_SHIELD_KEY), 10, 13, Items.NETHERITE_INGOT), BRONZE_SHIELD_KEY);
+
 
     //steel
     public static final ToolMaterial STEEL_TOOL_MATERIAL = new ToolMaterial(
@@ -108,6 +114,10 @@ public class ModItems {
                 .register((itemGroup) -> itemGroup.addAfter(Items.ENDER_EYE, ModItems.STARRY_EYE));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK)
                 .register((itemGroup) -> itemGroup.addAfter(Items.RABBIT_STEW, ModItems.STAR_MOTE_STEW));
+
+        //bronze
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT)
+                .register((itemGroup) -> itemGroup.addAfter(Items.SHIELD, ModItems.BRONZE_SHIELD));
 
         //steel
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS)
